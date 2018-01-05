@@ -50,3 +50,7 @@ def randomNum():
 def randomPhrase():
     phrase = random.choice([randomChoice() + " " + randomNoun(), randomChances() + " " + randomYou()])
     return phrase + ": " + randomNum()
+
+if __name__ == "__main__":
+    print(randomPhrase())
+
